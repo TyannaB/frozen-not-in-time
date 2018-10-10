@@ -2,9 +2,78 @@ html {
   font-family: 'Fredoka One', cursive;
   color: #c09;
   background-color: #d4fdff;
-
 }
 
 h1 {
   color: #990073;
 }
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #990073;
+  color: #c09;
+}
+/*
+.btn-ghost {
+  background-color: transparent;
+  border-color: #990073;
+} */
+
+.max-width {
+  max-width: 19em;
+}
+
+.icecream {
+  background-color: green;
+  min-height: 440px
+
+}
+
+
+.pieces {
+  transform: scale(.4)
+  /* apply last
+  bottom: 100%;
+  */
+}
+
+.cherry {
+  left: 15%;
+  bottom: 260px;
+animation: cherry-drop 1s forwards linear;
+}
+/*
+@keyframes {
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+
+  }
+}
+*/
+
+.vanilla-fudge {
+  left: 15%;
+  bottom: 245px;
+}
+
+.chocolate-chip {
+  left: 20%;
+  bottom: 175px;
+
+}
+
+.mint-chip {
+  left: 15%;
+  bottom: 100px;
+}
+
+.cone {
+  left: 15%;
+  bottom: 5px;
+
+}
+
+.
