@@ -25,13 +25,13 @@ h1 {
 
 .icecream {
   background-color: green;
-  min-height: 440px
+  min-height: 575px
 
 }
 
 
 .pieces {
-  transform: scale(.4)
+  transform: scale(.7)
   /* apply last
   bottom: 100%;
   */
@@ -55,24 +55,24 @@ animation: cherry-drop 1s forwards linear;
 */
 
 .vanilla-fudge {
-  left: 15%;
-  bottom: 245px;
+  left: 8%;
+  bottom: 290px;
 }
 
 .chocolate-chip {
-  left: 20%;
-  bottom: 175px;
+  left: 11%;
+  bottom: 240px;
 
 }
 
 .mint-chip {
-  left: 15%;
-  bottom: 100px;
+  left: 9%;
+  bottom: 152px;
 }
 
 .cone {
-  left: 15%;
-  bottom: 5px;
+  left: 9%;
+  bottom: 50px;
 
 }
 
