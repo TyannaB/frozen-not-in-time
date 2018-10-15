@@ -2,7 +2,8 @@ html {
   font-family: "Fredoka One", sans-serif;
   color: #c09;
   background: repeating-linear-gradient(to top left, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
-  border-top: 10px #b3fbff solid;
+  border-top: 8px #b3fbff solid;
+  border-bottom: 8px #b3fbff solid;
 }
 
 h1 {
@@ -18,6 +19,10 @@ h1 {
 .btn-ghost:hover {
   background-color: transparent;
   border-color: #990073;
+}
+
+.height {
+  min-height: 440px;
 }
 
 .max-width {
@@ -36,79 +41,46 @@ h1 {
 .cherry {
   left: 9%;
   bottom: 315px;
-  animation: cherry-drop 1s forwards linear;
+  animation: cherry-drop 5s forwards linear;
 }
 
-@keyframes cherry-drop {
 
-  0% {
-    top: -300px;
-  }
-
-  100% {
-    top: -45px;
-  }
-
-}
 
 .vanilla-fudge {
   left: 8%;
   bottom: 365px;
-  animation: vanilla-fudge-drop 1s forwards linear;
+  animation: vanilla-fudge-drop 4s forwards linear;
 }
 
-@keyframes vanilla-fudge-drop {
 
-  0% {
-    top: -300px;
-  }
-
-  100% {
-    top: 35px;
-  }
-
-}
 
 .chocolate-chip {
   left: 11%;
   bottom: 310px;
-  animation: chocolate-chip-drop 1s forwards linear;
+  animation: chocolate-chip-drop 3s forwards linear;
 }
 
-@keyframes chocolate-chip-drop {
 
-  0% {
-    top: -300px;
-  }
-
-  100% {
-    top: 110px;
-  }
-
-}
 
 .mint-chip {
   left: 9%;
   bottom: 225px;
-  animation: mint-chip-drop 1s forwards linear;
+  animation: mint-chip-drop 2s forwards linear;
 }
 
-@keyframes mint-chip-drop {
 
-  0% {
-    top: -300px;
-  }
-
-  100% {
-    top: 190px;
-  }
-
-}
 
 .cone {
   left: 9%;
   bottom: 150px;
   animation: cone-drop 1s forwards linear;
+}
+
+.text {
+  transform: rotate(-6deg);
+  text-shadow: 1px 1px rgba(0, 0, 0, .5);
+  animation: text-appear .5s linear forwards;
+  opacity: 0;
 }
 
 @keyframes cone-drop {
@@ -123,12 +95,52 @@ h1 {
 
 }
 
-.text {
-  transform: rotate(-6deg);
-  text-shadow: 1px 1px rgba(0, 0, 0, .2);
-  animation: text-appear .5s linear forwards;
-  animation-delay: 2.5s;
-  opacity: 0;
+@keyframes mint-chip-drop {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 190px;
+  }
+
+}
+
+@keyframes chocolate-chip-drop {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 110px;
+  }
+
+}
+
+@keyframes vanilla-fudge-drop {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 35px;
+  }
+
+}
+
+@keyframes cherry-drop {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: -45px;
+  }
+
 }
 
 @keyframes text-appear {
