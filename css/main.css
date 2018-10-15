@@ -41,7 +41,7 @@ h1 {
 .cherry {
   left: 9%;
   bottom: 315px;
-  animation: cherry-drop 5s forwards linear;
+  animation: cherry-drop 1200ms forwards linear;
 }
 
 
@@ -49,7 +49,7 @@ h1 {
 .vanilla-fudge {
   left: 8%;
   bottom: 365px;
-  animation: vanilla-fudge-drop 4s forwards linear;
+  animation: vanilla-fudge-drop 1300ms forwards linear;
 }
 
 
@@ -57,7 +57,7 @@ h1 {
 .chocolate-chip {
   left: 11%;
   bottom: 310px;
-  animation: chocolate-chip-drop 3s forwards linear;
+  animation: chocolate-chip-drop 1400ms forwards linear;
 }
 
 
@@ -65,7 +65,7 @@ h1 {
 .mint-chip {
   left: 9%;
   bottom: 225px;
-  animation: mint-chip-drop 2s forwards linear;
+  animation: mint-chip-drop 1500ms forwards linear;
 }
 
 
@@ -73,7 +73,7 @@ h1 {
 .cone {
   left: 9%;
   bottom: 150px;
-  animation: cone-drop 1s forwards linear;
+  animation: cone-drop 1600ms forwards linear;
 }
 
 .text {
