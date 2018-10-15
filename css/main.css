@@ -1,7 +1,8 @@
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", sans-serif;
   color: #c09;
-  background-color: #d4fdff;
+  background: repeating-linear-gradient(to top left, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  border-top: 10px #b3fbff solid;
 }
 
 h1 {
@@ -13,67 +14,136 @@ h1 {
   border-color: #990073;
   color: #c09;
 }
-/*
-.btn-ghost {
+
+.btn-ghost:hover {
   background-color: transparent;
   border-color: #990073;
-} */
+}
 
 .max-width {
   max-width: 19em;
 }
 
 .icecream {
-  background-color: green;
-  min-height: 575px
-
+  min-height: 575px;
 }
 
-
 .pieces {
-  transform: scale(.7)
-  /* apply last
-  bottom: 100%;
-  */
+  transform: scale(.7);
+  top: 100px;
 }
 
 .cherry {
-  left: 15%;
-  bottom: 260px;
-animation: cherry-drop 1s forwards linear;
+  left: 9%;
+  bottom: 290px;
+  animation: cherry-drop 1s forwards linear;
 }
-/*
-@keyframes {
+
+@keyframes cherry-drop {
+
   0% {
-    bottom: 100%;
+    top: -200px;
   }
 
   100% {
-
+    top: -45px;
   }
+
 }
-*/
 
 .vanilla-fudge {
   left: 8%;
-  bottom: 310px;
+  bottom: 335px;
+  animation: vanilla-fudge-drop 1s forwards linear;
+}
+
+@keyframes vanilla-fudge-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 35px;
+  }
+
 }
 
 .chocolate-chip {
   left: 11%;
-  bottom: 240px;
+  bottom: 265px;
+  animation: chocolate-chip-drop 1s forwards linear;
+}
+
+@keyframes chocolate-chip-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 110px;
+  }
 
 }
 
 .mint-chip {
   left: 9%;
-  bottom: 152px;
+  bottom: 175px;
+  animation: mint-chip-drop 1s forwards linear;
+}
+
+@keyframes mint-chip-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 190px;
+  }
+
 }
 
 .cone {
   left: 9%;
-  bottom: 50px;
+  bottom: 100px;
+  animation: cone-drop 1s forwards linear;
+}
+
+@keyframes cone-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 300px;
+  }
 
 }
 
-.
+.text {
+  transform: rotate(-6deg);
+  text-shadow: 1px 1px rgba(0, 0, 0, .2);
+  animation: text-appear .5s linear forwards;
+  animation-delay: 2.5s;
+  opacity: 0;
+}
+
+@keyframes text-appear {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 100;
+    filter: blur(0);
+  }
+
+}
