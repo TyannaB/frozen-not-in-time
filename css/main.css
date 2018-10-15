@@ -35,14 +35,14 @@ h1 {
 
 .cherry {
   left: 9%;
-  bottom: 290px;
+  bottom: 315px;
   animation: cherry-drop 1s forwards linear;
 }
 
 @keyframes cherry-drop {
 
   0% {
-    top: -200px;
+    top: -300px;
   }
 
   100% {
@@ -53,14 +53,14 @@ h1 {
 
 .vanilla-fudge {
   left: 8%;
-  bottom: 335px;
+  bottom: 365px;
   animation: vanilla-fudge-drop 1s forwards linear;
 }
 
 @keyframes vanilla-fudge-drop {
 
   0% {
-    top: -200px;
+    top: -300px;
   }
 
   100% {
@@ -71,14 +71,14 @@ h1 {
 
 .chocolate-chip {
   left: 11%;
-  bottom: 265px;
+  bottom: 310px;
   animation: chocolate-chip-drop 1s forwards linear;
 }
 
 @keyframes chocolate-chip-drop {
 
   0% {
-    top: -200px;
+    top: -300px;
   }
 
   100% {
@@ -89,14 +89,14 @@ h1 {
 
 .mint-chip {
   left: 9%;
-  bottom: 175px;
+  bottom: 225px;
   animation: mint-chip-drop 1s forwards linear;
 }
 
 @keyframes mint-chip-drop {
 
   0% {
-    top: -200px;
+    top: -300px;
   }
 
   100% {
@@ -107,14 +107,14 @@ h1 {
 
 .cone {
   left: 9%;
-  bottom: 100px;
+  bottom: 150px;
   animation: cone-drop 1s forwards linear;
 }
 
 @keyframes cone-drop {
 
   0% {
-    top: -200px;
+    top: -300px;
   }
 
   100% {
