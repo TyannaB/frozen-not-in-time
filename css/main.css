@@ -1,9 +1,10 @@
-html {
+.gradient {
   font-family: "Fredoka One", sans-serif;
   color: #c09;
   background: repeating-linear-gradient(to top left, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   border-top: 8px #b3fbff solid;
   border-bottom: 8px #b3fbff solid;
+  margin: 0;
 }
 
 h1 {
@@ -17,12 +18,13 @@ h1 {
 }
 
 .btn-ghost:hover {
-  background-color: transparent;
+  background-color: #b3fbff;
   border-color: #990073;
+  color: #c09;
 }
 
 .height {
-  min-height: 440px;
+  min-height: 20px;
 }
 
 .max-width {
@@ -30,7 +32,7 @@ h1 {
 }
 
 .icecream {
-  min-height: 575px;
+  min-height: 485px;
 }
 
 .pieces {
@@ -39,45 +41,37 @@ h1 {
 }
 
 .cherry {
-  left: 9%;
-  bottom: 315px;
+  left: 50px;
+  top: 400px;
   animation: cherry-drop 1200ms forwards linear;
 }
 
-
-
 .vanilla-fudge {
-  left: 8%;
-  bottom: 365px;
+  left: 48px;
+  top: 375px;
   animation: vanilla-fudge-drop 1300ms forwards linear;
 }
 
-
-
 .chocolate-chip {
-  left: 11%;
-  bottom: 310px;
+  left: 50px;
+  top: 325px;
   animation: chocolate-chip-drop 1400ms forwards linear;
 }
 
-
-
 .mint-chip {
-  left: 9%;
-  bottom: 225px;
+  left: 50px;
+  top: 275px;
   animation: mint-chip-drop 1500ms forwards linear;
 }
 
-
-
 .cone {
-  left: 9%;
-  bottom: 150px;
+  left: 50px;
+  top: 225px;
   animation: cone-drop 1600ms forwards linear;
 }
 
 .text {
-  transform: rotate(-6deg);
+  transform: rotate(-8deg);
   text-shadow: 1px 1px rgba(0, 0, 0, .5);
   animation: text-appear .5s linear forwards;
   opacity: 0;
